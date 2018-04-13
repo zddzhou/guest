@@ -18,6 +18,7 @@ for i in range(1, len(array)):
         #123fghfgh
         # woshixianjiade dahuil
         index = i           # 用来记录排序元素需要插入的位置dsdsddsds
+        #question2
         while index > 0 and array[index - 1] > temp:
             array[index] = array[index - 1]     # 把已经排序好的元素后移一位，留下需要插入的位置
             index -= 1
