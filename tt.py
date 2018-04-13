@@ -16,6 +16,7 @@ for i in range(1, len(array)):
     if array[i - 1] > array[i]:
         temp = array[i]     # 当前需要排序的元素12345
         #123fghfgh
+        # woshixianjiade dahuil
         index = i           # 用来记录排序元素需要插入的位置dsdsddsds
         while index > 0 and array[index - 1] > temp:
             array[index] = array[index - 1]     # 把已经排序好的元素后移一位，留下需要插入的位置
