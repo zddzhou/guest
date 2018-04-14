@@ -16,7 +16,7 @@ for i in range(1, len(array)):
     if array[i - 1] > array[i]:
         temp = array[i]     # 当前需要排序的元素12345
         #question4
-        # woshixianjiade dahuil
+        # woshixianjiade dahuil  123456723456
         #hello   fhgjkfghjk
         # question3
         index = i           # 用来记录排序元素需要插入的位置dsdsddsds
